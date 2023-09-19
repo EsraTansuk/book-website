@@ -1,0 +1,110 @@
+.subscribe1 { 
+  position: relative;
+  max-width: 1410px;
+  height: 300px;
+  background-repeat: no-repeat;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background-image: url(/src/images/background9.jpg);
+
+  .form-control {
+    border: 1px solid transparent;
+    border-radius: 50px;
+    width: 580px;
+    height: 52px;
+  
+    &:focus{
+      border: 1px solid $red3;
+  
+    }
+  }
+  
+  
+  .form-control::placeholder {
+    font-size: 13px;
+    line-height: 2; 
+    font-weight: 400;
+    color: $gray;
+    padding: 12px 140px 12px 25px;
+  }
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text1 {
+  font-family: sora,Sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: $light;
+  text-transform: capitalize;
+  line-height: 44px;
+  letter-spacing: -2px;
+  
+
+}
+
+.span1 {
+  color: $red1;
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 44px;
+  letter-spacing: -2px;
+}
+
+.span2 {
+  font-weight: 400;
+  color: $light;
+  margin: 0 0 20px;
+  font-size: 14.5px;
+}
+
+
+
+
+
+
+.subscribe-btn {
+  border: 1px solid transparent;
+  border-radius: 50px;
+  background-color: $red2;
+  color: $light;
+  height: 52px;
+  position: absolute;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2857142857;
+  padding: 17px 20px;
+
+  i{
+    transition: transform .3s ease;
+  }
+}
+
+
+.great {
+  font-size: 10px;
+    font-weight: 700;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.subscribe-btn:hover {
+background-color: $red3;
+color: white;
+
+
+i {
+  transform: translateX(3px);
+  transition: all 1s ease-out;
+}
+}
+

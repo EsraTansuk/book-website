@@ -1,0 +1,61 @@
+.bhead {
+  font-family: "Sora", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.containerb {
+  padding: 15px 30px;
+  width: 450.3px;
+  height: 520px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  background-color: #f6f4ff;
+  overflow: auto;
+
+  .img-t {
+    width: 80px;
+    height: 112px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  hr {
+    height: 2px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: "Sora", sans-serif;
+    margin-top: 80px;
+    font-size: 14px;
+  }
+
+  .stars {
+    color: #fa8c17;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+
+  .tm {
+    font-size: 12px;
+    color: #999999;
+  }
+
+  .tm:hover,
+  a:hover {
+    color: rgb(246, 93, 78);
+    cursor: pointer;
+  }
+
+  .text-price {
+    color: rgb(246, 93, 78);
+    font-family: "Sora", sans-serif;
+    font-size: 20px;
+    font-weight: 520;
+    line-height: 1.4;
+    letter-spacing: -1px;
+  }
+}

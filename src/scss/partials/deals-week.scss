@@ -1,0 +1,112 @@
+.deals-week {
+    width: 80%;
+    margin-left: 8%
+}
+
+.deals-of-week {
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+.clock {
+    background-color: $yellow1;
+    display: inline-flex;
+    align-items: center;
+    min-width: 195px;
+    border-radius: 50px;
+}
+
+.clock i {
+    font-size: 22px;
+    margin-right: 13px;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.clock p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.25;
+    text-align: center;
+}
+
+
+.theme-card {
+    border-style: solid;
+    border-radius: 15px;
+    border-color: $red1;
+    border-width: 2;
+    padding: 20px;
+}
+
+.img-book {
+    border-radius: 15px;
+}
+
+.book-title {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.book-title:hover {
+    color: $red1;
+}
+
+.card-text1 {
+    color: $gray1;
+    text-decoration: none;
+    font-size: small;
+}
+
+.card-text1:hover {
+    color: $red1;
+}
+
+.card-text2 {
+    color: $gray1;
+    font-size: small;
+}
+
+.card-text3 {
+    font-size: small;
+}
+
+.stars {
+    color: $orange4;
+}
+
+.regular-stars {
+    color: gray;
+}
+
+.five {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.fa-xs {
+    line-height: initial;
+}
+
+.dolars {
+    color: $red1;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.progress {
+    height: 7px;
+}
+
+.progress-el {
+    background-color: $red1;
+}
+
+
+

@@ -1,0 +1,309 @@
+.featured-books {
+  width: 1527px;
+  height: 600px;
+  font-family: "Sora";
+  margin: 0 30px 30px 0;
+}
+
+.featured-card {
+  flex-wrap: nowrap;
+}
+
+.featured-title {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  padding-left: 10%;
+}
+
+.featured-title2 {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  padding-left: 13%;
+}
+
+.featured-title3 {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  padding-left: 13%;
+}
+
+.card11 {
+  padding: 0 0 0 12px;
+  margin-left: -68px;
+  width: 450px;
+  height: 422px;
+}
+
+.card1 {
+  width: 450px;
+  height: 422px;
+  position: relative;
+}
+
+.list-el {
+  position: absolute;
+  top: 50px;
+  left: 80px;
+}
+
+.featured-list1 {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: small;
+  color: $dark-gray;
+}
+
+.featured-list1:hover {
+  color: $red1;
+}
+
+.featured-list2 {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: small;
+  color: $dark-gray;
+}
+
+.featured-list2:hover {
+  color: $red1;
+
+}
+
+.featured-list3 {
+  a {
+    font-weight: 600;
+
+    &:hover {
+      &::after {
+        transform: translate(3px, 0px);
+        transition: all ease-out 0.1;
+      }
+    }
+
+    &::after {
+      @extend .fas;
+      @extend .ms-2;
+      content: "\f105";
+      color: $red1;
+    }
+  }
+}
+
+.card-grops {
+  height: 425px;
+}
+
+.card2 {
+  overflow: hidden;
+}
+
+.featured-img {
+  width: 450px;
+  height: 422px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+}
+
+.feature-img {
+  border: 1px solid transparent;
+  border-radius: 15px;
+}
+
+.fbook-title {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.fbook-title:hover {
+  color: $red1;
+}
+
+.author {
+  color: $gray1;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.author:hover {
+  color: $red1;
+}
+
+.product1:hover {
+  .icons {
+    display: block;
+  }
+
+  .circle-i {
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin: 3%;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    i {
+      font-size: 25px;
+      padding-top: 23%;
+    }
+  }
+
+  .animated-icons {
+    width: 9%;
+  }
+}
+
+.product1 {
+  .card2 {
+    overflow: hidden;
+    transition: all ease-in-out 0.3s;
+
+    .animated-icons {
+      visibility: hidden;
+      position: absolute;
+      top: 5%;
+      transform: translateX(100%);
+      margin-left: 4%;
+    }
+
+    &:hover {
+      .animated-icons {
+        visibility: unset;
+
+        .circle-i1 {
+          transform: translateX(-100%);
+          transition: all ease 0.1s;
+        }
+        .circle-i2 {
+          transform: translateX(-100%);
+          transition: all ease 0.3s;
+        }
+        .circle-i3 {
+          transform: translateX(-100%);
+          transition: all ease 0.5s;
+        }
+      }
+    }
+  }
+}
+
+.carousel-control-prev1 {
+  right: 230px;
+  width: 10%;
+  height: 10%;
+  margin-top: 15%;
+  margin-right: 5px;
+}
+
+.carousel-control-prev2 {
+  right: 230px;
+  width: 10%;
+  height: 10%;
+  margin-top: 15%;
+  margin-right: 5px;
+}
+
+.carousel-control-prev3 {
+  right: 230px;
+  width: 10%;
+  height: 10%;
+  margin-top: 15%;
+  margin-right: 5px;
+}
+
+.carousel-control-next {
+  left: 750px;
+  width: 10%;
+  height: 10%;
+  margin-top: 15%;
+  margin-left: 2%;
+}
+
+@media (max-width: 400px) {
+  .caro-s .carousel-inner1 .caro1 > div {
+    display: none;
+  }
+  .caro-s .carousel-inner1 .caro1 > div:first-child {
+    display: block;
+  }
+}
+
+.caro-s .carousel-inner1 .caro1.active,
+.caro-s .carousel-inner1 .caro1-next,
+.caro-s .carousel-inner1 .caro1-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 400px) {
+  .caro-s .carousel-inner1 .caro1-end.active,
+  .caro-s .carousel-inner1 .caro1-next {
+    transform: translateX(25%);
+  }
+
+  .caro-s .carousel-inner1 .caro1-start.active,
+  .caro-s .carousel-inner1 .caro1-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.caro-s .carousel-inner1 .caro1-end,
+.caro-s .carousel-inner1 .caro1-start {
+  transform: translateX(0);
+}
+
+.cir1:hover {
+  color: #f65d4e;
+}
+
+.cir2:hover {
+  color: #f65d4e;
+}
+
+.cir3:hover {
+  color: #f65d4e;
+}
+
+.cir1:active {
+  color: #f65d4e;
+}
+
+.cir2:active {
+  color: #f65d4e;
+}
+
+.cir3:active {
+  color: #f65d4e;
+}
+
+.cir1 {
+  color: #f65d4e;
+  opacity: 1;
+  font-size: x-small;
+}
+
+.cir2 {
+  color: #f65d4e;
+  margin-left: 43px;
+  opacity: 1;
+  font-size: x-small;
+}
+
+.cir3 {
+  color: #f65d4e;
+  margin-left: 80px;
+  opacity: 1;
+  font-size: x-small;
+}

@@ -1,0 +1,41 @@
+// Main scss file
+// ------------------------------------
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap");
+
+// ------------------------------------
+// fontawesome
+@import "@/icons/scss/fontawesome";
+@import "@/icons/scss/regular";
+@import "@/icons/scss/solid";
+@import "@/icons/scss/brands";
+
+@import "base/icomoon";
+
+// ------------------------------------
+// bootstrap customize
+@import "custom-bootstrap";
+
+
+
+// ------------------------------------
+
+// ------------------------------------
+
+// ------------------------------------
+@import "base";
+@import "partials/slider";
+@import "partials/header";
+@import "partials/header-alt";
+@import "partials/type-of-books";
+@import "partials/footer";
+@import "partials/advantages.scss";
+@import "partials/deals-week";
+@import "partials/category-cards";
+@import "partials/discover-now-banner-component";
+@import "partials/trending-products.scss";
+@import "partials/featured-categories";
+@import "partials/top-100-products";
+@import "partials/subscribe-component";
+

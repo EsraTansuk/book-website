@@ -1,0 +1,67 @@
+.header {
+  background-color: $orange;
+  height: 12%;
+
+  .icons{
+    i:hover {
+      color: black;
+    }
+
+  }
+
+  .form-control {
+    border: 1px solid white;
+    height: 48px !important;
+    
+  
+    &:focus{
+      border: 1px solid $red3;
+  
+    }
+  }
+
+  .logo {
+    border-radius: 0;
+  }
+
+  .btn-submit {
+    background-color: $orange2;
+  }
+
+  .all-category:hover{
+    background-color: $light;
+  }
+  
+
+  .logo{
+    padding-left: 5%;
+  }
+
+  .search{
+    padding-left: 3%;
+    font-size: 10px !important;
+    
+  }
+
+  .icons {
+    font-size: 20px;
+    float: right;
+    padding-right: 10%;
+    color: white;
+    
+    i {
+      padding-right: 5px;
+      padding-left: 8px;
+      color: white;
+      
+    }
+    .i-2{
+      border-left: 1px solid $light;
+    }
+  }
+
+  .dropdown-menu{
+    border-radius: 2%;
+  }
+
+}

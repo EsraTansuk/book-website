@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?bre0yc');
+  src:  url('fonts/icomoon.eot?bre0yc#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?bre0yc') format('truetype'),
+    url('fonts/icomoon.woff?bre0yc') format('woff'),
+    url('fonts/icomoon.svg?bre0yc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-om-svgrepo-com:before {
+  content: "\e900";
+}
+.icon-space-ship-svgrepo-com:before {
+  content: "\e901";
+}
+.icon-family-svgrepo-com-1:before {
+  content: "\e902";
+}
+.icon-ankh-svgrepo-com:before {
+  content: "\e903";
+}
+.icon-male-love-and-romance-svgrepo-com-1:before {
+  content: "\e904";
+}
+.icon-unicorn-svgrepo-com-1:before {
+  content: "\e905";
+}
+.icon-skull-svgrepo-com:before {
+  content: "\e906";
+}

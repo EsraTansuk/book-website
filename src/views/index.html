@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <main>
+    <!-- reusable components -->
+    <%= require('html-loader!../partials/header.html').default %>
+      <%= require('html-loader!../partials/header-alt.html').default %>
+      <%= require('html-loader!../partials/type-of-books.html').default %>
+        <%= require('html-loader!../partials/slider.html').default %>
+          <%= require('html-loader!../partials/advantages.html').default %>
+          <div class="row">
+            <div class=" col-lg-8">
+              <%=require('html-loader!../partials/deals-week.html').default %>
+            </div>
+            <div class=" justify-content-center align-items-center col-lg-4">
+              <%=require('html-loader!../partials/trending-products.html').default %>
+            </div>
+          </div>
+                    <%=require('html-loader!../partials/category-cards.html').default%>
+                    <%= require('html-loader!../partials/biographies-memoirs.html').default %>
+                      <%= require('html-loader!../partials/childrens-books.html').default %>
+                        <%= require('html-loader!../partials/literature-fiction.html') .default %>
+                        <%= require('html-loader!../partials/discover-now-banner-component.html').default %>
+                        <%=require('html-loader!../partials/top-100-products.html').default%>
+                          <%=require('html-loader!../partials/subscribe-component.html').default%>
+
+  </main>
+</body>
+<%= require('html-loader!../partials/footer.html').default %>
+
+</html>

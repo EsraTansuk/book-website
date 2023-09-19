@@ -1,0 +1,56 @@
+.footer {
+  background-color: $dark-gray;
+  color: white;
+  padding: 3%;
+
+  .footer-section {
+    padding-left: 3%;
+  }
+
+  .middle {
+    text-align: center;
+    border-left: 1px solid $gray;
+    border-right: 1px solid $gray;
+    font-size: xx-large;
+  }
+
+
+  span {
+    color: $orange3;
+  }
+  
+  ul{
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a, p {
+    text-decoration: none;
+    color: $gray;
+    font-size: medium;
+  }
+
+  a:hover{
+    color: red;
+  }
+
+  .social-icons {
+    color: $gray;
+   
+
+    a {
+        font-size: large;
+        
+    }
+    
+    i {
+        padding-left: 4%;
+    }
+    
+  }
+
+  
+}

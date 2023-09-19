@@ -1,0 +1,44 @@
+.btn-slider:hover {
+  background-color: black;
+  color: white;
+}
+
+.sp {
+  opacity: 1;
+  color: #f65d4e;
+  font-size: small;
+}
+
+main {
+  color: black;
+}
+
+@keyframes grow-and-shrink {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.book {
+  animation: grow-and-shrink 2000ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes text-flow {
+  0% {
+    transform: translateY(400px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.text {
+  animation: text-flow 1000ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}

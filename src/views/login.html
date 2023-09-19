@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <main id="page" data-page="auth">
+    <!-- reusable components -->
+    <%= require('html-loader!../partials/header.html').default %>
+    <%= require('html-loader!../partials/header-alt.html').default %>
+      <section class="auth">
+        <div class="container">
+          <div class="row justify-content-center align-items-center py-5">
+            <div class="col-lg-5 col-xl-4">
+              <div class="tab-content">
+                <div class="tab-pane fade active show" id="loginForm" role="tabpanel" tabindex="0">
+                  <%= require('html-loader!../partials/login-form.html').default %>
+                </div>
+                <div class="tab-pane fade" id="registerForm" role="tabpanel" tabindex="0">
+                  <%= require('html-loader!../partials/register-form.html').default %>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <%= require('html-loader!../partials/footer.html').default %>
+  </main>
+</body>
+
+</html>

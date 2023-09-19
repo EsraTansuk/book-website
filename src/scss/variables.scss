@@ -1,0 +1,88 @@
+// Fonts
+// -------------------------
+$font-family-sans-serif: "Poppins", sans-serif;
+$font-family-handwritten: "Satisfy", cursive;
+$font-size-base: 1.125rem;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$line-height-base: 1.5;
+
+// Colors
+// -------------------------
+// global colors
+$brown: #594838;
+$cream: #e2d9cf;
+$green: #14401f;
+$red: #8c3623;
+$red1: #f46b62;
+$red2: #F65D4E;
+$red3: #f4402f;
+$blue: #0984e3;
+$mint: #00b894;
+$apple: #6ab04c;
+$turquoise: #00cec9;
+$orange: #f65d4e;
+$orange2: #cf3424;
+$orange3: #f65d4e;
+$orange4: #f8822a;
+$yellow: #fdcb6e;
+$yellow1: #fccc4d;
+$pink: #e84393;
+$rose: #e7a8a6;
+$purple: #3b2559;
+$patrol: #265d73;
+$gray: #9e9a9a;
+$brown: #73674f;
+$dark-gray: #282828;
+$yellow1: #fccc4d;
+$pink: #e84393;
+$purple: #3b2559;
+$patrol: #265d73;
+$gray: rgb(158, 154, 154);
+$gray1: #d3d3d3;
+
+$gray3: #444444;
+
+$light: #f4f6f8;
+$dark: #060d0b;
+
+$ballerina: #c8d6e5;
+$imperial: #222f3e;
+
+$primary: $orange3;
+$secondary: $patrol;
+$danger: $red;
+$warning: $yellow;
+$success: $apple;
+$info: $blue;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "sugar": $pink,
+  "purple": $purple,
+  "light": $light,
+  "dark": $dark,
+);
+
+$prefix: "g1-";
+$spacer: 1rem;
+$border-width: $spacer * 0.125;
+
+$box-shadow: 0 0.5rem 1rem $orange;
+
+//scss-docs-start border-radius-variables
+$border-radius: $spacer * 2 !default;
+$border-radius-sm: $border-radius;
+$border-radius-lg: $border-radius;
+$border-radius-xl: $spacer !default;
+$border-radius-2xl: $spacer * 2 !default;
+$border-radius-pill: $spacer * 50 !default;
+
+$component-active-color: $orange;
+$component-active-bg: $orange;
+$component-active-bg: $orange;

@@ -1,0 +1,103 @@
+.discover {
+  width: 1349px;
+  left: 0px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+  .discover-div {
+    background-image: url(https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/11/h8_bg_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 620px;
+  }
+
+  .elementor {
+    width: 30%;
+    margin-left: 3%;
+    padding-top: 5%;
+    position: relative;
+
+    .elementor-heading-title {
+      h2 {
+        font-weight: 600;
+        font-size: 53px;
+        padding-bottom: 3%;
+      }
+    }
+
+    .elementor-description {
+      color: $gray3;
+      font-size: medium;
+      padding-bottom: 5%;
+    }
+  }
+
+  .elementor-widget-container {
+    margin-left: 2%;
+    width: 80%;
+  }
+  .widget {
+    margin-right: 3%;
+
+    p {
+      text-align: center;
+      font-weight: 600;
+      font-size: medium;
+    }
+    .widget-circle {
+      width: 85px;
+      height: 85px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: $orange;
+      border-radius: 50%;
+      margin: 3%;
+      position: relative;
+      padding: 1%;
+
+      h3 {
+        color: white;
+        font-weight: 600;
+        padding-top: 33%;
+        font-size: x-large;
+      }
+    }
+  }
+
+  .elementor-button {
+    margin-top: 3%;
+    margin-left: 2%;
+    
+
+    a {
+      text-decoration: none;
+      border: 2px solid white;
+      background-color: white;
+      border-radius: 50px 50px 50px 50px;
+      padding: 16px 28px;
+
+      span {
+        font-weight: 600;
+        font-size: large;
+        color: black;
+      }
+    }
+
+    i {
+      padding-left: 1%;
+      color: $orange;
+      transform: translate(-10px, 0px);
+      width: 1%;
+    }
+  }
+
+  .elementor-button:hover {
+  
+    i {
+      transform: translate(-5px, 0px);
+      transition: all ease-out 0.1;
+    }
+  }
+}

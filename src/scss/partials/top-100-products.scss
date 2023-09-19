@@ -1,0 +1,89 @@
+.contain-b {
+  margin-left: 180px;
+  margin-right: 180x;
+}
+
+.line {
+  width: 1200px;
+}
+
+.btn-f {
+  width: 180.7px;
+  height: 52px;
+  color: white;
+  font-size: 12px;
+}
+
+.btn-f:hover {
+  background-color: #f44536;
+}
+
+.ang {
+  color: white;
+}
+
+.hb {
+  font-family: "Sora", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -1px;
+  margin-top: 80px;
+  width: 1184.39px;
+  height: 84px;
+}
+
+.contain-f {
+  height: 190px;
+  width: 1300px;
+  margin-bottom: 15px;
+}
+
+.contain-s {
+  margin-top: 0.00025px;
+  width: 1527px;
+  height: 210px;
+  margin-bottom: 80px;
+}
+
+.contain-f,
+.contain-s {
+  .card-100 {
+    width: 429px;
+    height: 266px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: "Sora", sans-serif;
+    margin-top: 80px;
+    font-size: 14px;
+  }
+
+  .stars {
+    color: #fa8c17;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+
+  .tm {
+    font-size: 12px;
+    color: #999999;
+  }
+
+  .tm:hover,
+  a:hover {
+    color: rgb(246, 93, 78);
+    cursor: pointer;
+  }
+
+  .text-price {
+    color: rgb(246, 93, 78);
+    font-family: "Sora", sans-serif;
+    font-size: 20px;
+    font-weight: 520;
+    line-height: 1.4;
+    letter-spacing: -1px;
+  }
+}

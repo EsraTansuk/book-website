@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+node_modules
+package-lock.json
+dist
+=======
 # Logs
 logs
 *.log
@@ -128,3 +133,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+>>>>>>> a9b03d82ba8ac131e2c1a239db02e8240895268f

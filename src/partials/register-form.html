@@ -1,0 +1,82 @@
+<form class="py-4 px-3 p-md-5 rounded text-bg-light">
+  <h2 class="h3 mb-3 text-primary fw-normal">Please register</h2>
+
+  <div class="row">
+    <div class="col">
+      <form class="py-4 px-3 p-md-5">
+
+        <div class="form-floating my-3">
+          <label for="floatingInput">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="floatingInput"
+            placeholder="Name"
+            required
+          />
+        </div>
+
+        <div class="form-floating my-3">
+          <label for="floatingInput">Surname</label>
+          <input
+            type="text"
+            class="form-control"
+            id="floatingInput"
+            placeholder="Surname"
+            required
+          />
+        </div>
+
+        <div class="form-floating my-3">
+          <label for="floatingInput">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+            required
+          />
+        </div>
+
+        <div class="form-floating my-3">
+          <label for="floatingPassword">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Password"
+            required
+          />
+        </div>
+
+        <div class="form-floating my-3">
+          <label for="floatingPassword">Repeat Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Repeat Password"
+            required
+          />
+        </div>
+
+        <div class="checkbox mb-3 me-3">
+          <label>
+            <input type="checkbox" value="accept" class="me-2" />I accept sending emails to
+            me for informational purposes.</label
+          >
+        </div>
+
+        <button class="w-100 btn btn-primary text-light fw-bold mt-2" type="submit">
+          Register
+        </button>
+
+        <button
+          id="goToLoginTab"
+          data-target="loginForm"
+          class="w-100 btn btn-link text-primary mt-3 fw-bold"
+        >
+          Login
+        </button>
+      </form>
+
